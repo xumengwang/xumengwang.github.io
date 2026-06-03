@@ -79,7 +79,7 @@
                 <ul class="Index">
 
                     <header class='PageTitle'>
-                        <h1># time-series data </h1>
+                        <h1># urban data </h1>
                     </header>
 
                     <!-- <div class="Archives">
@@ -358,20 +358,21 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
 
-                            <img src="/assets/tseditor.png" class="center-cropped">
+                            <img src="/assets/trajectory-utility-vis.png" class="center-cropped">
 
                         </div>
 
                         <div class="col-md-8 col-sm-8">
 
                             <h2>
-                                <a class="link-title archive-article-title" href="/2026/tseditor/">
-                                    TSEditor: Interactive Time Series Editing for Privacy Preservation</a>
+                                <a class="link-title archive-article-title"
+                                    href="/2026/A-Utility-Aware-Privacy-Preserving-Method-for-Trajectory-Publication/">
+                                    A Utility-Aware Privacy-Preserving Method for Trajectory Publication</a>
                             </h2>
 
                             <div class="blog-info">
                                 <div>
-                                    ACM CHI <time datetime="2026-4-13T16:00:00.000Z"
+                                    IEEE TVCG <time datetime="2026-2-1T16:00:00.000Z"
                                         itemprop="datePublished">2026</time>
 
                                 </div>
@@ -379,36 +380,41 @@
 
                             <div class="blog-item">
 
-                                <p>Authors: Z Xu, S Liu, K Shao, Y Jin, <span style="color:steelblue">X Wang</span>, Z
-                                    Deng, D
-                                    Weng, Y Wu</p>
+                                <p>Authors: Z Wu, <span style="color:steelblue">X Wang</span>, Z Huang, T Zhang, M Zhu,
+                                    X Huang,
+                                    M Xu, W Chen</p>
                                 <hr>
-                                <p>Publishing time series datasets raises substantial privacy concerns, as the
-                                    underlying
-                                    patterns (e.g., trends, values) can lead to the disclosure of individual
-                                    identification.
-                                    Mitigating these concerns remains challenging due to difficulties in pinpointing
-                                    specific
-                                    privacy-leaking patterns and protecting them without significantly compromising the
-                                    analytical
-                                    utility of the published data. Existing methods remain vulnerable to identity
-                                    attacks
-                                    utilizing diverse temporal patterns and may compromise data utility for subsequent
-                                    analytical
-                                    tasks. To address these limitations, we collaborated with domain experts to
-                                    summarize a
-                                    taxonomy of privacy risks in time series data and developed TSEditor, an interactive
-                                    editing
-                                    system. TSEditor integrates coordinated views for multi-perspective analysis of
-                                    privacy risks
-                                    and introduces six editing operations for targeted modifications, providing visual
-                                    feedback.
-                                </p>
+                                <p>The security of individual privacy is paramount for trajectory publication, while
+                                    preserving
+                                    trajectory utility is also essential to serve analysis tasks such as urban planning
+                                    and
+                                    transportation development. To assess and maintain trajectory utility, existing
+                                    studies
+                                    consider geographic context. However, innate semantic characteristics of
+                                    trajectories (e.g.,
+                                    origin, destination, stay point, path) have been overlooked, which prevents data
+                                    owners from
+                                    specifying task-specific utility measurements and, consequently, from achieving a
+                                    delicate
+                                    balance between privacy and utility. This paper proposes an interactive trajectory
+                                    publishing
+                                    approach driven by flexible utility considerations, which processes trajectory
+                                    points
+                                    according to their semantics to fulfill diverse utility requirements. Concretely, we
+                                    decouple
+                                    trajectories into origin–destination (OD) and path components: ODs are generalized
+                                    into
+                                    regions to satisfy k-anonymity, and paths are sanitized within each OD group using
+                                    road-network–aware differential privacy under predefined privacy constraints. We
+                                    also develop
+                                    a visual interface to support exploration and comprehension of privacy-preserving
+                                    solutions,
+                                    through which we incorporate human knowledge into the privacy scheme.</p>
 
                             </div>
                             <div class="links">
 
-                                <a class="link-btn" href=https://dl.acm.org/doi/pdf/10.1145/3772318.3790885>
+                                <a class="link-btn" href=https://ieeexplore.ieee.org/document/11223762>
                                     pdf
                                 </a>
 
@@ -428,7 +434,7 @@
                                     <div class="row">
                                         <div class="col-md-4 col-sm-4">
 
-                                            <img src="/assets/conceptExplorer.png" class="center-cropped">
+                                            <img src="/assets/user-study.png" class="center-cropped">
 
                                         </div>
 
@@ -437,16 +443,17 @@
 
                                             <h2>
                                                 <a class="link-title archive-article-title"
-                                                    href="/2020/conceptExplorer/">ConceptExplorer: Visual Analysis of
-                                                    Concept Drifts in Multi-source Time-series Data</a>
+                                                    href="/2018/A-User-Study-on-the-Capability-of-Three-Geo-Based-Features-in-Analyzing-and-Locating-Trajectories/">A
+                                                    User Study on the Capability of Three Geo-Based Features in
+                                                    Analyzing and Locating Trajectories</a>
                                             </h2>
 
 
 
                                             <div class="blog-info">
                                                 <div>
-                                                    IEEE VAST <time datetime="2020-10-24T16:00:00.000Z"
-                                                        itemprop="datePublished">2020</time>
+                                                    IEEE T-ITS <time datetime="2018-10-28T16:00:00.000Z"
+                                                        itemprop="datePublished">2018</time>
 
                                                 </div>
                                             </div>
@@ -454,24 +461,23 @@
 
                                             <div class="blog-item">
 
-                                                <p>Authors: <span style="color:steelblue">X Wang</span>, W Chen , J Xia
-                                                    , Z Chen , D Xu , X Wu , M Xu , T Schreck</p>
+                                                <p>Authors: <span style="color:steelblue">X Wang</span>, T Gu, X Luo, X
+                                                    Cai, T Lao, W Chen, Y Wu, J Yu, W Chen</p>
                                                 <hr>
-                                                <p>Time-series data is widely studied in various scenarios, like weather
-                                                    forecast, stock market, customer behavior analysis. To
-                                                    comprehensively learn about the dynamic environments, it is
-                                                    necessary to comprehend features from multiple data sources. This
-                                                    paper proposes a novel visual analysis approach for detecting and
-                                                    analyzing concept drifts from multi-sourced time-series. We propose
-                                                    a visual detection scheme for discovering concept drifts from
-                                                    multiple sourced time-series based on prediction models. We design a
-                                                    drift level index to depict the dynamics, and a consistency judgment
-                                                    model to justify whether the concept drifts from various sources are
-                                                    consistent. Our integrated visual interface, ConceptExplorer,
-                                                    facilitates visual exploration, extraction, understanding, and
-                                                    comparison of concepts and concept drifts from multi-source
-                                                    time-series data. We conduct three case studies and expert
-                                                    interviews to verify the effectiveness of our approach.</p>
+                                                <p>Visual analysis is widely applied to study human mobility due to the
+                                                    ability in integrating contextual information multiple data sources.
+                                                    Analyzing trajectory data through visualization improves the
+                                                    efficiency and accuracy of the analysis, yet may induce exposure of
+                                                    the location privacy. To balance the location privacy and analysis
+                                                    effectiveness, this work focuses on the behaviors of different
+                                                    geo-based contexts in the process of trajectory interpretation.
+                                                    Three types of geo-based contexts are identified after surveying 94
+                                                    related literatures. We further conduct experiments to investigate
+                                                    their capability by evaluating how they benefit the analysis, and
+                                                    whether they lead to the location privacy exposure. Finally, we
+                                                    report and discuss interesting findings, and provide guidelines to
+                                                    the design of privacypreserving analysis approaches for human
+                                                    periodic trajectories.</p>
 
 
                                             </div>
@@ -479,15 +485,83 @@
 
 
                                                 <a class="link-btn"
-                                                    href=http://www.cad.zju.edu.cn/home/vagblog/images/photo_bed/2020/2a84a959afd042af2557ea16c0e41c1a1389bfd7.pdf>
+                                                    href=http://www.cad.zju.edu.cn/home/vagblog/VAG_Work/IEEEITS_xumeng.pdf>
                                                     pdf
                                                 </a>
 
 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="blog-post-sep">
+
+
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+
+                                            <img src="/assets/relationlines.png" class="center-cropped">
+
+                                        </div>
+
+                                        <div class="col-md-8 col-sm-8">
+
+
+                                            <h2>
+                                                <a class="link-title archive-article-title"
+                                                    href="/2018//RelationLines/">Relationlines: Visual Reasoning of
+                                                    Egocentric Relations from Heterogeneous Urban Data</a>
+                                            </h2>
+
+
+
+                                            <div class="blog-info">
+                                                <div>
+                                                    ACM TIST <time datetime="2018-02-28T16:00:00.000Z"
+                                                        itemprop="datePublished">2018</time>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="blog-item">
+
+                                                <p>Authors: W Chen, J Xia, <span style="color:steelblue">X Wang</span>,
+                                                    Y Wang, J Chen, L Chang</p>
+                                                <hr>
+                                                <p>The increased accessibility of urban sensor data and the popularity
+                                                    of social network applications is enabling the discovery of crowd
+                                                    mobility and personal communication patterns. However, studying the
+                                                    egocentric relationships of an individual (i.e., the egocentric
+                                                    relations) can be very challenging because available data may refer
+                                                    to direct contacts, such as phone calls between individuals, or
+                                                    indirect contacts, such as paired location presence. In this paper,
+                                                    we develop methods to integrate three facets extracted from
+                                                    heterogeneous urban data (timelines, calls and locations) through a
+                                                    progressive visual reasoning and inspection scheme. Our approach
+                                                    uses a detect-and-filter scheme, such that, prior to visual
+                                                    refinement and analysis, a coarse detection is performed to extract
+                                                    the target individual and construct the timeline of the target. It
+                                                    then detects spatio-temporal co-occurrences or call-based contacts
+                                                    to develop the egocentric network of the individual. The filtering
+                                                    stage is enhanced with a line-based visual reasoning interface that
+                                                    facilitates flexible and comprehensive investigation of egocentric
+                                                    relationships and connections in terms of time, space and social
+                                                    networks. The integrated system, RelationLines, is demonstrated
+                                                    using a dataset that contains taxi GPS data, cell-base mobility
+                                                    data, mobile calling data, microblog data and POI data of a city
+                                                    with millions of citizens. We examine the effectiveness and
+                                                    efficiency of our system by three case studies and user review.</p>
+
+
+                                            </div>
+                                            <div class="links">
+
+
                                                 <a class="link-btn"
-                                                    href=http://www.cad.zju.edu.cn/home/vagblog/images/photo_bed/2021/86fdcd3513d0fd6d40875061bf713d094667c7df.mp4>
-                                                    presentation
+                                                    href=http://www.cad.zju.edu.cn/home/vagblog/VAG_Work/RelationLine_final.pdf>
+                                                    pdf
                                                 </a>
+
 
                                             </div>
                                         </div>
